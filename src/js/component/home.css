@@ -1,0 +1,7 @@
+#card-group {display: flex;
+}
+#jumboStyle{padding-top: 10px;}
+
+.footerLine{height: 70px; margin-top: 50px; color: aliceblue; padding: 10px;
+    background-color: black; text-align: center;
+}
