@@ -1,22 +1,28 @@
 import React from "react";
-
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
+import "./home.css"
 //create your first component
-
-
 import { ActualCard } from "./actualCard.jsx";
 import { TagLine } from "./tagLine.jsx";
-import { NewCard } from "./newcard.jsx";
+import { JumbotronLine } from "./jumbotron.jsx";
 
 const Home = () => {
-	return (
-		<div>
+	return (<div className="container-fluid">
+		 	 <div>
 			<TagLine />
+			</div>
+			<div id="jumboStyle">
+			<JumbotronLine />
+			 <div/>
+
+			<div id="card-group">
 			<ActualCard />
 			<ActualCard />
-			<NewCard />
+			<ActualCard />
+			<ActualCard />
+			 </div>
+
+			 </div>
 		</div>
 	);
 };
